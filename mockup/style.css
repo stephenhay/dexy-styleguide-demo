@@ -1,0 +1,19 @@
+body { background-color: white; }
+/*** @export "button" css */
+button {
+    display: block;
+    width: 50%;
+    margin: 5em auto 0;
+    background-color: steelblue;
+    border: 8px solid silver;
+    border-radius: 5px;
+    padding: 1em;
+    font: 150% sans-serif;
+}
+/*** @export "button-hover" css */
+button:hover { background: olive; }
+
+
+
+
+
