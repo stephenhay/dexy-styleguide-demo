@@ -1,0 +1,11 @@
+{
+  "*.markdown|pandoc|hd|ft|jinja" : {
+    "allinputs" : true
+  },
+  "screenshots.js|fn|casperjs" : {},
+  "*.js|idio" : {},
+  "*.css|idio" : {},
+  "_*.html" : {},
+  "*.png" : {},
+  "*.css" : {}
+}

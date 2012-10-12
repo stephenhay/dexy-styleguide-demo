@@ -34,12 +34,12 @@ This is what happens:
 1. There is a static web mockup we're working with (`mockup/`). In it, certain blocks of CSS are marked by way of special comments. You can read more about these comments at the Dexy website.
 2. There is a `screenshots.js` file which runs when Dexy is run. This takes screenshots of (in this case) specific elements which you want to include in your style guide. These are automatically saved in an `output/` folder when Dexy is run.
 3. There is a Markdown file, which is the style guide for this demo. This consists of text formatted using Markdown conventions, but uses Jinja template syntax for indicating where specific screenshots and/or pieces of CSS should be placed.
-4. When run, Dexy looks at the `.dexy` file to determine the order it applies its "filters". In this case, it creates an HTML document by taking `_header.html`, adding the converted content of the markdown file (including the content of the templates in that file) and ending the document with the contents of `_footer.html`. If you're familiar with static site generators like Jekyll, this process will seem similar to you.
+4. When run, Dexy looks at the `.dexy` file to determine the order it applies its “filters”. In this case, it creates an HTML document by taking `_header.html`, adding the converted content of the markdown file (including the content of the templates in that file) and ending the document with the contents of `_footer.html`. If you're familiar with static site generators like Jekyll, this process will seem similar to you.
 5. The files are placed in a folder called `output/`.
 
 That's pretty much it.
 
-## "I can't get it working"
+## “I can't get it working”
 
 Sorry about that. There are lots of moving parts here. If your purpose is to simply see the demo, please just try and get one of the conference videos (of the Style Guides talk). If you can't get this working but want to create style guides with Dexy, I'm afraid you'll either have to wait for when the book comes out or until I write a post on the Dexy blog (the book has my priority right now, though). Or find a developer who loves tinkering. There are plenty.
 
